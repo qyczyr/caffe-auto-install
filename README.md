@@ -15,7 +15,7 @@
 
 
 ___
-强烈建议大家使用**pip** 管理Python package, 不要用ubuntu系统的`apt-get install`来安装python包.
+**强烈建议大家使用"pip" 管理Python package, 不要用ubuntu系统的`apt-get install`来安装python包.**
 ### pip的一些常用命令:
 
 1. `sudo -H pip install package-name`安装package, 例如`sudo -H pip install numpy`, 你甚至可以指定安装的版本:`sudo -H pip install numpy>=1.11.0`
@@ -23,7 +23,8 @@ ___
 3. `sudo -H pip uninstall package-name`卸载;
 4. `pip list` 列出已安装的package.
 
-`install-caffe-all.sh`或`install-caffe-lite.sh`
+### 安装pip
+`install-caffe-all.sh`已自动安装了**pip**并用**pip**安装caffe的python依赖项, 你也可以手动`python get-pip.py`安装**pip**.
 
 
 ___
