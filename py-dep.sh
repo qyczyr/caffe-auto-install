@@ -19,6 +19,7 @@ sudo -H pip install pandas
 sudo -H pip install python-dateutil
 sudo -H pip install python-gflags pyyaml Pillow six pyzmq singledispatch
 sudo -H pip install backports_abc certifi jsonschema graphviz  qtawesome pydot
-sudo -H cp python/cv2.py /usr/local/lib/python2.7/dist-packages/
+# an alternative of cv2
+sudo -H cp cv2.py /usr/local/lib/python2.7/dist-packages/
 
 source ~/.bashrc
